@@ -1,7 +1,6 @@
 import functionmodule
-n=int(input(&quot;enter number:&quot;))
+n=int(input("enter number:"))
 f=functionmodule.factors(n)
-
-print(&quot;Factors :&quot;,f)
+print("Factors :",f)
 pf=functionmodule.primeFactors(n)
-print(&quot;Prime Factors :&quot;,pf)
+print("Prime Factors :",pf)
