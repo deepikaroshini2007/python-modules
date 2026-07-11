@@ -1,12 +1,11 @@
 import setmodule
-s1=set(map(int,input(&quot;Enter the elements of set1:&quot;).split()))
-s2=set(map(int,input(&quot;Enter the elements of set2:&quot;).split()))
+s1=set(map(int,input("Enter the elements of set1:").split()))
+s2=set(map(int,input("Enter the elements of set2:").split()))
 uni=setmodule.sunion(s1,s2)
-print(&quot;Union :&quot;,uni)
+print("Union :",uni)
 inter=setmodule.sintersection(s1,s2)
-print(&quot;Intersection :&quot;,inter)
+print("Intersection :",inter)
 diff=setmodule.sdifference(s1,s2)
-print(&quot;Difference :&quot;,diff)
-
+print("Difference :",diff)
 sdiff=setmodule.ssymmetricdiff(s1,s2)
-print(&quot;Symmetric Difference :&quot;,sdiff)
+print("Symmetric Difference :",sdiff)
